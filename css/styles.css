@@ -1,0 +1,22 @@
+:root {
+    --primary-bg-color: #ffffff;
+    --secondary-bg-color:#191C26;
+    --tertiary-bg-color: #F7F7F7;
+    --primary-text-color:#9DA4BD;
+    --secondary-text-color:#555555;
+    --primary-title-color:#FFFFFF;
+    --secondary-title-color:#303030;
+    --tertiary-title-color: rgba(157, 164, 189, 0.6);
+    --accent-color:#FF6C00;
+    --primary-placeholder-color:#FFFFFF;
+    --secondary-placeholder-color:rgba(157, 164, 189, 0.4);
+    --primary-link-color:#FFFFFF;
+    --secondary-link-cover:#303030;
+}
+
+body {
+    font-family: Open Sans, sans-serif;
+    font-size: 18px;
+    line-height: 1.67;
+    font-weight: 700;
+}
