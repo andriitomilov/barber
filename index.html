@@ -20,19 +20,29 @@
           <a href="/" class="logo"
             ><img src="./images/barberLogo.svg" alt="site logo"
           /></a>
-          <ul class="nav-list">
-            <li class="nav-list__item"><a href="">About</a></li>
-            <li class="nav-list__item"><a href="">Services and prices</a></li>
-            <li class="nav-list__item"><a href="">Barbers</a></li>
-            <li class="nav-list__item"><a href="">Contacts</a></li>
+          <ul class="nav-list list">
+            <li class="nav-list__item">
+              <a class="nav-list__link link" href="">About</a>
+            </li>
+            <li class="nav-list__item">
+              <a class="nav-list__link link" href="">Services and prices</a>
+            </li>
+            <li class="nav-list__item">
+              <a class="nav-list__link link" href="">Barbers</a>
+            </li>
+            <li class="nav-list__item">
+              <a class="nav-list__link link" href="">Contacts</a>
+            </li>
           </ul>
         </nav>
 
         <div class="contacts">
-          <a href="tel:+380441111111" class="contacts__link"
+          <a href="tel:+380441111111" class="contacts__link link"
             >+38 044 111 11 11</a
           >
-          <button type="button" class="btn">Online-booking</button>
+          <button type="button" class="btn btn--primary link">
+            Online-booking
+          </button>
         </div>
       </div>
     </header>
@@ -40,29 +50,31 @@
     <main>
       <section class="hero">
         <div class="container">
-          <ul class="social">
-            <li class="social__item">
+          <ul class="social-list list">
+            <li class="social-list__item">
               <a
                 href=""
-                class="social__link"
+                class="social-list__link link"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 >Instagram</a
               >
             </li>
-            <li class="social__item">
+            <li class="social-list__item">
               <a
                 href=""
-                class="social__link"
+                class="social-list__link link"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 >Youtube</a
               >
             </li>
           </ul>
-          <p class="desc-title">A hair salon for men in Kyiv</p>
+          <p class="desc-title desc-title--primary">
+            A hair salon for men in Kyiv
+          </p>
           <h1 class="main-title">BarberShop</h1>
-          <p class="hero__text">
+          <p class="desc-text desc-text--primary">
             We are experts in trendy men’s haircuts. We work quickly, carefully
             and with style.
           </p>
@@ -71,7 +83,7 @@
 
       <section class="about">
         <div class="container">
-          <ul class="about-list">
+          <ul class="about-list list">
             <li class="about-list__item">
               <img
                 src="./images/aboutImage-1.jpg"
@@ -91,106 +103,124 @@
           </ul>
 
           <div class="about__desc">
-            <p class="desc-title">about</p>
-            <h2 class="title about__title">Best Barbershop in your city</h2>
-            <p class="about__text">
+            <p class="desc-title desc-text--secondary">about</p>
+            <h2 class="title about__title title--secondary">
+              Best Barbershop in your city
+            </h2>
+            <p class="desc-text desc-text--secondary">
               If you want to add more confidence to your image, you should
               definitely visit us.
             </p>
-            <p class="about__text">
+            <p class="about__desc-text desc-text desc-text--secondary">
               We are a team that never stops at what has been achieved and are
               thirsty for changes. And when you fall into the hands of our
               master, you will never be the same again. We are a team that is
               always "on the same wave" with clients. Therefore, we are always
               ready to improve everyone who comes to us!
             </p>
-            <button type="button" class="btn">Online-booking</button>
+            <button type="button" class="btn btn--secondary">
+              Online-booking
+            </button>
           </div>
         </div>
       </section>
 
       <section class="section service">
         <div class="container">
-          <p class="desc-title">Spend your time with the best masters</p>
-          <h2 class="title service__title">Services and prices</h2>
+          <p class="desc-title desc-title--primary">
+            Spend your time with the best masters
+          </p>
+          <h2 class="title service__title title--primary">
+            Services and prices
+          </h2>
 
           <div class="service__box">
-            <ul class="service-list">
+            <ul class="service-list list service-list--primary">
               <li class="service-list__item">
-                <p class="service-list__text">Men’s haircut</p>
-                <span class="service-list__decor"></span>
-                <p class="service-list__text">from 300 uah.</p>
+                <p class="desc-text desc-text--primary">Men’s haircut</p>
+                <span class="desc-text desc-text--primary"></span>
+                <p class="desc-text desc-text--primary">from 300 uah.</p>
               </li>
               <li class="service-list__item">
-                <p class="service-list__text">Beard trim</p>
-                <span class="service-list__decor"></span>
-                <p class="service-list__text">from 300 uah.</p>
+                <p class="desc-text desc-text--primary">Beard trim</p>
+                <span class="desc-text desc-text--primary"></span>
+                <p class="desc-text desc-text--primary">from 300 uah.</p>
               </li>
               <li class="service-list__item">
-                <p class="service-list__text">Mustache trim</p>
-                <span class="service-list__decor"></span>
-                <p class="service-list__text">from 200 uah.</p>
+                <p class="desc-text desc-text--primary">Mustache trim</p>
+                <span class="desc-text desc-text--primary"></span>
+                <p class="desc-text desc-text--primary">from 200 uah.</p>
               </li>
               <li class="service-list__item">
-                <p class="service-list__text">Straight razor shave</p>
-                <span class="service-list__decor"></span>
-                <p class="service-list__text">from 200 uah.</p>
+                <p class="desc-text desc-text--primary">Straight razor shave</p>
+                <span class="desc-text desc-text--primary"></span>
+                <p class="desc-text desc-text--primary">from 200 uah.</p>
               </li>
             </ul>
 
-            <ul class="service-list">
+            <ul class="service-list list service-list--secondary">
               <li class="service-list__item">
-                <p class="service-list__text">Trainee’s haircut</p>
-                <span class="service-list__decor"></span>
-                <p class="service-list__text">from 50 uah.</p>
+                <p class="desc-text desc-text--primary">Trainee’s haircut</p>
+                <span class="desc-text desc-text--primary"></span>
+                <p class="desc-text desc-text--primary">from 50 uah.</p>
               </li>
               <li class="service-list__item">
-                <p class="service-list__text">Haircut under the nozzle</p>
-                <span class="service-list__decor"></span>
-                <p class="service-list__text">from 200 uah.</p>
+                <p class="desc-text desc-text--primary">
+                  Haircut under the nozzle
+                </p>
+                <span class="desc-text desc-text--primary"></span>
+                <p class="desc-text desc-text--primary">from 200 uah.</p>
               </li>
               <li class="service-list__item">
-                <p class="service-list__text">Children’s haircut (0-12 y.o.)</p>
-                <span class="service-list__decor"></span>
-                <p class="service-list__text">from 300 uah.</p>
+                <p class="desc-text desc-text--primary">
+                  Children’s haircut (0-12 y.o.)
+                </p>
+                <span class="desc-text desc-text--primary"></span>
+                <p class="desc-text desc-text--primary">from 300 uah.</p>
               </li>
               <li class="service-list__item">
-                <p class="service-list__text">Camouflage of gray hair</p>
-                <span class="service-list__decor"></span>
-                <p class="service-list__text">from 200 uah.</p>
+                <p class="desc-text desc-text--primary">
+                  Camouflage of gray hair
+                </p>
+                <span class="desc-text desc-text--primary"></span>
+                <p class="desc-text desc-text--primary">from 200 uah.</p>
               </li>
             </ul>
           </div>
 
-          <button type="button" class="btn">Online-booking</button>
+          <button type="button" class="btn btn--primary">Online-booking</button>
         </div>
       </section>
 
       <section class="advantage">
         <div class="container">
-          <ul class="advantage-list">
+          <ul class="advantage-list list">
             <li class="advantage-list__item">
-              <span>600</span>
-              <p>Satisfied customers per day</p>
+              <span class="advantage__tagline">600</span>
+              <p class="advantage__desc">Satisfied customers per day</p>
             </li>
             <li class="advantage-list__item">
-              <span>50</span>
-              <p>Awards for excellent service</p>
+              <span class="advantage__tagline">50</span>
+              <p class="advantage__desc">Awards for excellent service</p>
             </li>
             <li class="advantage-list__item">
-              <span>20</span>
-              <p>Kyiv’s best barbers</p>
+              <span class="advantage__tagline">20</span>
+              <p class="advantage__desc">Kyiv’s best barbers</p>
             </li>
             <li class="advantage-list__item">
-              <span>100</span>
-              <p>Gifts for regular customers</p>
+              <span class="advantage__tagline">100</span>
+              <p class="advantage__desc">Gifts for regular customers</p>
             </li>
           </ul>
 
           <div class="advantage-box">
-            <p class="desc-title">Old traditional school</p>
-            <h2 class="title advantage__title">Why people come to us</h2>
-            <p class="advantage__text">
+            <p class="desc-title desc-title--secondary">
+              Old traditional school
+            </p>
+            <h2 class="title advantage__title title--secondary">
+              Why people come to us
+            </h2>
+            <p class="desc-text desc-text--secondary">
               Only good things are said about us. But it's better to see and
               feel 1 time than read 10 times.
             </p>
@@ -200,10 +230,12 @@
 
       <section class="team">
         <div class="container">
-          <p class="desc-title">For true enjoyers of the atmosphere</p>
-          <h2 class="title team__title">Our barbers</h2>
+          <p class="desc-title desc-title--secondary">
+            For true enjoyers of the atmosphere
+          </p>
+          <h2 class="title team__title title--secondary">Our barbers</h2>
 
-          <ul class="team-list">
+          <ul class="team-list list">
             <li class="team-list__item">
               <img
                 src="./images/teamImage-1.jpg"
@@ -213,7 +245,7 @@
               />
               <h3 class="team-list__title">John Smith</h3>
               <p class="team-list__text">Extreme Barber</p>
-              <ul class="social-list">
+              <ul class="social-list list">
                 <li class="social-list__item">
                   <a href="" class="social-list__link"
                     ><img src="./images/insta.svg" alt="Instagram"
@@ -245,7 +277,7 @@
               />
               <h3 class="team-list__title">Michele Doe</h3>
               <p class="team-list__text">Extreme Barber</p>
-              <ul class="social-list">
+              <ul class="social-list list">
                 <li class="social-list__item">
                   <a href="" class="social-list__link"
                     ><img src="./images/insta.svg" alt="Instagram"
@@ -277,7 +309,7 @@
               />
               <h3 class="team-list__title">Alan Black</h3>
               <p class="team-list__text">Extreme Barber</p>
-              <ul class="social-list">
+              <ul class="social-list list">
                 <li class="social-list__item">
                   <a href="" class="social-list__link"
                     ><img src="./images/insta.svg" alt="Instagram"
@@ -306,9 +338,11 @@
 
       <section class="gallery">
         <div class="container">
-          <h2 hidden>Gallery</h2>
-          <p class="desc-title"></p>
-          <ul class="gallery-list">
+          <h2 class="visually-hidden">Gallery</h2>
+          <p class="desc-title desc-text--secondary">
+            In Latin, "barba" means "beard"
+          </p>
+          <ul class="gallery-list list">
             <li class="gallery-list__item">
               <a href="" class="gallery-list__link"
                 ><img
@@ -348,23 +382,25 @@
       <div class="wrapper">
         <section class="booking">
           <div class="container booking__container">
-            <h2 class="title booking__title">Online-booking</h2>
+            <h2 class="title booking__title title--primary">Online-booking</h2>
             <form class="form">
               <input type="text" class="booking__input" placeholder="Name*" />
               <input type="tel" class="booking__input" placeholder="Phone*" />
               <textarea placeholder="Message*"></textarea>
-              <button type="submit" class="btn booking__btn">Send</button>
+              <button type="submit" class="btn booking__btn btn--primary">
+                Send
+              </button>
             </form>
           </div>
         </section>
 
         <section class="contacts">
           <div class="container contacts__container">
-            <h2 class="title contacts__title">Contacts</h2>
+            <h2 class="title contacts__title title--primary">Contacts</h2>
             <address class="address">
               <a
                 href=""
-                class="address__link"
+                class="address__link link address__link--bold"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 ><img src="./images/map-pin.svg" alt="" width="24" />
@@ -373,18 +409,20 @@
                   Kyiv, 08132</span
                 ></a
               >
-              <a href="tel:+380441111111" class="address__link"
+              <a href="tel:+380441111111" class="address__link link"
                 ><img src="./images/phone.svg" alt="" width="24" />
                 <span>+38 044 111 11 11</span></a
               >
-              <a href="mailto:barbershop@email.com" class="address__link"
+              <a href="mailto:barbershop@email.com" class="address__link link"
                 ><img src="./images/mail.svg" alt="" width="24" />
                 <span>barbershop@email.com</span></a
               >
             </address>
 
-            <p class="desc-title">Working hours</p>
-            <p class="contacts__text">Every day from 9:00 to 22:00</p>
+            <p class="desc-title desc-title--tertiary">Working hours</p>
+            <p class="contacts__text desc-text desc-text--primary">
+              Every day from 9:00 to 22:00
+            </p>
           </div>
         </section>
       </div>
@@ -392,22 +430,22 @@
 
     <footer class="footer">
       <div class="container footer__container">
-        <p class="footer__text">&#169;Copyright 2020</p>
+        <p class="copyright">&#169;Copyright 2020</p>
 
-        <ul class="social footer__social">
-          <li class="social__item">
+        <ul class="social-list footer__social list">
+          <li class="social-list__item">
             <a
               href=""
-              class="social__link"
+              class="social-list__link link"
               target="_blank"
               rel="noopener noreferrer nofollow"
               >Instagram</a
             >
           </li>
-          <li class="social__item">
+          <li class="social-list__item">
             <a
               href=""
-              class="social__link"
+              class="social-list__link link"
               target="_blank"
               rel="noopener noreferrer nofollow"
               >Youtube</a
@@ -416,6 +454,5 @@
         </ul>
       </div>
     </footer>
-    >
   </body>
 </html>
