@@ -2,16 +2,24 @@
   --primary-bg-color: #ffffff;
   --secondary-bg-color: #191c26;
   --tertiary-bg-color: #f7f7f7;
+
   --primary-text-color: #9da4bd;
   --secondary-text-color: #555555;
+
   --primary-title-color: #ffffff;
   --secondary-title-color: #303030;
   --tertiary-title-color: rgba(157, 164, 189, 0.6);
+
   --accent-color: #ff6c00;
+
   --primary-placeholder-color: #ffffff;
   --secondary-placeholder-color: rgba(157, 164, 189, 0.4);
+
   --primary-link-color: #ffffff;
-  --secondary-link-cover: #303030;
+  --secondary-link-color: #303030;
+
+  --primary-btn-color: #ffffff;
+  --secondary-btn-color: #303030;
 }
 
 body {
@@ -52,10 +60,10 @@ body {
   background-color: transparent;
 }
 .btn--primary {
-  color: var(--primary-link-color);
+  color: var(--primary-btn-color);
 }
 .btn--secondary {
-  color: var(--secondary-title-color);
+  color: var(--secondary-btn-color);
 }
 
 /* -------------------DESC-TITLE--------------*/
@@ -133,7 +141,7 @@ body {
   font-size: 11px;
   line-height: calc(15 / 11);
   letter-spacing: 0.2em;
-  color: var(--secondary-title-color);
+  color: var(--secondary-link-color);
 }
 
 .social-list__link:hover,
